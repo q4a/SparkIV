@@ -6,12 +6,12 @@ build:
 artifacts:
 - path: SRC\SparkIV\bin\Debug\
   name: Beta
-deploy:
-- provider: GitHub
-  tag: v$(appveyor_build_version)
-  release: Auto generated build v$(appveyor_build_version)
-  auth_token:
-    secure: E3sb9lPznsBDhR/vdk+DvdPff/I2kR6XG2Kne2nXVAeQW/aFMLZxq9TDUAOVoy/+
-  artifact: Beta
-  prerelease: false
-  force_update: false
+#deploy:
+#- provider: GitHub
+#  tag: v$(appveyor_build_version)
+#  release: Auto generated build v$(appveyor_build_version)
+#  auth_token:
+#    secure: E3sb9lPznsBDhR/vdk+DvdPff/I2kR6XG2Kne2nXVAeQW/aFMLZxq9TDUAOVoy/+
+#  artifact: Beta
+#  prerelease: false
+#  force_update: false

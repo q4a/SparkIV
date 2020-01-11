@@ -1,3 +1,10 @@
+# VS config folder
+.vs
+
+# folders of object/intermediate/binary files
+obj
+bin
+
 # Prerequisites
 *.d
 
